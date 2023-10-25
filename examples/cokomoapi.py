@@ -54,7 +54,7 @@ def print_competence_base_details(id: str):
             # call Cokomo API
             api_response = api_instance.competence_base_id_neighbours_get(id, depth=2)
             # process response
-            print("The response of CompetenceBaseApi->competence_base_id_details_get:\n")
+            print("The response of CompetenceBaseApi.competence_base_id_neighbours_get:\n")
             graph = visit_neighbours(api_response)
             print(graph)
         except cokomo.ApiException as e:
