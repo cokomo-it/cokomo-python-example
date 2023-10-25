@@ -1,3 +1,9 @@
+# CoKoMo API Python Example
+
+This repo provides a basic example for querying the [CoKoMo API](https://cokomo-it.de/docs/start/api/documentation/) using the [CoKoMo Python client library](https://github.com/cokomo-it/cokomo-python-client).
+
+[Visit the CoKoMo home page for more information on using CoKoMo models in elearning applications.](https://cokomo-it.de/docs/)
+
 ## Install requirements
 ```shell
 $ pip install pipenv
