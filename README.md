@@ -7,6 +7,7 @@ This repo provides a basic example for querying the [CoKoMo API](https://cokomo-
 ## Install requirements
 ```shell
 $ pip install pipenv
+$ pipenv update
 ```
 
 ## Run example
