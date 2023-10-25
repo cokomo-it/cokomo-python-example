@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Cokomo-Python-Client = {git = "git+https://github.com/cokomo-it/cokomo-python-client.git"}
+devtools = "*"
+rich = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
